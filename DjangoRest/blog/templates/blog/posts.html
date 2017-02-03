@@ -1,0 +1,3 @@
+{% for post in posts %}
+    <li><a href="{% url 'blog:post' post.id %}">{{post}}</a> </li>
+{% endfor %}
